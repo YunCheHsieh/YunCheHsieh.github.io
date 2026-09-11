@@ -217,7 +217,10 @@ svg {
 }
 
 .hero-copy {
-  grid-column: 1 / span 6;
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: 760px;
+  justify-self: center;
   padding-block: 56px;
 }
 
@@ -818,10 +821,6 @@ svg {
     padding-inline: 16px;
   }
 
-  .hero-copy {
-    grid-column: 1 / span 7;
-  }
-
   .project-copy {
     grid-column: 1 / span 5;
   }
@@ -892,10 +891,6 @@ svg {
   .hero {
     min-height: auto;
     padding-top: 18px;
-  }
-
-  .hero-copy {
-    grid-column: 1 / -1;
   }
 
   .hero-copy {
