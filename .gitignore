@@ -1,0 +1,10 @@
+# Local browser QA artifacts
+output/
+.playwright-cli/
+
+# Superseded draft assets
+assets/greenmind-sensor.webp
+assets/vortex-tube.webp
+
+# Superseded design-system exploration
+design-system/yun-che-hsieh-portfolio/
