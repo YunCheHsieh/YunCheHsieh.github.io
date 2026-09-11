@@ -329,9 +329,9 @@ svg {
 .hero-visual img {
   width: 100%;
   height: auto;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  mix-blend-mode: multiply;
+  object-position: center 72%;
 }
 
 .hero-visual figcaption {
