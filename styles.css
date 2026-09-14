@@ -9,9 +9,9 @@
   --header-height: 84px;
   --gutter: clamp(20px, 4vw, 64px);
   --content: 1440px;
-  --display: "Noto Sans TC", "Archivo", sans-serif;
-  --latin: "Space Grotesk", "Noto Sans TC", sans-serif;
-  --body: "Noto Sans TC", "Archivo", sans-serif;
+  --display: "Archivo", sans-serif;
+  --latin: "Space Grotesk", "Archivo", sans-serif;
+  --body: "Archivo", sans-serif;
 }
 
 *,

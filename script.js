@@ -6,7 +6,7 @@ const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 function setMenu(open) {
   menuButton.setAttribute("aria-expanded", String(open));
-  menuButton.setAttribute("aria-label", open ? "關閉導覽選單" : "開啟導覽選單");
+  menuButton.setAttribute("aria-label", open ? "Close navigation menu" : "Open navigation menu");
   primaryNavigation.classList.toggle("is-open", open);
   document.body.classList.toggle("menu-open", open);
 }
@@ -28,7 +28,7 @@ document.querySelectorAll(".project-toggle").forEach((button) => {
     const expanded = button.getAttribute("aria-expanded") === "true";
     const panel = document.getElementById(button.getAttribute("aria-controls"));
     button.setAttribute("aria-expanded", String(!expanded));
-    button.firstChild.textContent = expanded ? "查看詳情" : "收起詳情";
+    button.firstChild.textContent = expanded ? "View Details" : "Hide Details";
     panel.hidden = expanded;
   });
 });
